@@ -1,0 +1,18 @@
+{
+  "name": "css-preprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run css",
+    "css": "stylus index.styl -o index.css",
+    "css:watch": "stylus -w index.styl -o index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylus": "0.54.5"
+  }
+}
